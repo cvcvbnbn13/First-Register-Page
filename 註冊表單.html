@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+</head>
+<body>
+	<!-- USE GET NOT POST -->
+	<div>
+		<form method="GET" action="action.php">
+			First name:  <input type="text" name="firstname" required=""><br>
+			Last name:  <input type="text" name="lastname" required=""><br>
+			Email:  <input type="email" name="email" required=""><br>
+			Password:  <input type="password" name="password" min="6" required=""><br>
+			Birthday:  <input type="date" name="birthday"><br>
+			gender:  <br>
+			<input type="radio" name="gender">Male<br>
+			<input type="radio" name="gender">Female<br>
+			<input type="radio" name="gender">Other<br>
+			Pets:<br>
+			<input type="checkbox"> Cat<br>
+			<input type="checkbox"> Dogs<br>
+			<input type="checkbox"> Rabit<br>
+			Car:<br>
+			<select name="cars">
+				<option value="none">None</option>
+				<option value="volvo">Volvo</option>
+				<option value="audi">Audi</option>
+				<option value="benz">Benz</option>
+			</select><br>
+			<br>
+			<input type="submit" value="Register">
+			<input type="Reset" name="">
+		</form>
+	</div>
+</body>
+</html>
+
+?
+firstname=asa
+&lastname=qwe
+&email=cvcvbnbn13%40gmail.com
+&password=sun98765
+&birthday=1995-08-17
+&gender=on
